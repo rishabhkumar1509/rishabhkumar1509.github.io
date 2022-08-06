@@ -13,7 +13,8 @@
 
    <link rel="stylesheet" href="css/base.css">  
    <link rel="stylesheet" href="css/main.css">
-   <link rel="stylesheet" href="css/vendor.css">     
+   <link rel="stylesheet" href="css/vendor.css">    
+   <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen"> 
  
 	<script src="js/modernizr.js"></script>
 	<script src="js/pace.min.js"></script>
@@ -838,43 +839,14 @@
    		<div class="col-twelve">
 
             <!-- form -->
-            <form name="contactForm" id="contactForm" method="post" action="">
-      			<fieldset>
+			<form name="contactForm" id="contactForm" action="https://send.pageclip.co/p8efHGsl81fygkydcwZ7Volzl4dV1Lhl/Contact" class="pageclip-form" method="post">
 
-                  <div class="form-field">
- 						   <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" autocomplete="off">
-                  </div>
-                  <div class="form-field">
-	      			   <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" autocomplete="off">
-	               </div>
-                  <div class="form-field">
-	     				   <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" autocomplete="off">
-	               </div>                       
-                  <div class="form-field">
-	                 	<textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
-	               </div>                      
-                 <div class="form-field">
-                     <button class="submitform">Submit</button>
-                     <div id="submit-loader">
-                        <div class="text-loader">Sending...</div>                             
-       				      <div class="s-loader">
-								  	<div class="bounce1"></div>
-								  	<div class="bounce2"></div>
-								  	<div class="bounce3"></div>
-								</div>
-							</div>
-                  </div>
-
-      			</fieldset>
-      		</form> <!-- Form End -->
-
-            <!-- contact-warning -->
-            <div id="message-warning">            	
-            </div>            
-            <!-- contact-success -->
-      		<div id="message-success">
-               <i class="fa fa-check"></i>Your message was sent successfully!<br>
-      		</div>
+				<input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2" required="" autocomplete="off">
+				<input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value="" required="" autocomplete="off">
+				<input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" autocomplete="off">
+                <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50" required=""></textarea>
+                <button type="submit" class="pageclip-form__submit"></button>
+			  </form>
 
          </div> <!-- /col-twelve -->
    		
@@ -968,6 +940,7 @@
    <script src="js/jquery-2.1.3.min.js"></script>
    <script src="js/plugins.js"></script>
    <script src="js/main.js"></script>
+   <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 
 </body>
 
